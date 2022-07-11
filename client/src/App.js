@@ -1,4 +1,5 @@
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
+import Header from "./components/Header";
 import StreamCreate from "./components/streams/StreamCreate";
 import StreamDelete from "./components/streams/StreamDelete";
 import StreamEdit from "./components/streams/StreamEdit";
@@ -7,9 +8,10 @@ import StreamShow from "./components/streams/StreamShow";
 
 function App() {
   return (
-    <div>
-      <h1>Header</h1>
+    <div className="ui container">
       <BrowserRouter>
+      <Header />
+
         <Route path="/" exact component={StreamList} />
         <Route path="/streams/new" component={StreamCreate} />
         <Route path="/streams/edit" component={StreamEdit} />
