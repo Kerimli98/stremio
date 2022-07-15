@@ -1,21 +1,33 @@
 {
   "streams": [
     {
-      "title": "I created this stream",
-      "description": "This was made by me",
-      "userId": "111707005800329931426",
-      "id": 5
-    },
-    {
       "title": "Unexpected Behaviour",
       "description": "Changed the description !",
       "id": 6
     },
     {
-      "title": "salam",
-      "description": "naniiii?",
+      "title": "new stream",
+      "description": "something asas",
       "userId": "111707005800329931426",
       "id": 7
+    },
+    {
+      "title": "Vaflee",
+      "description": "waffle",
+      "userId": "111707005800329931426",
+      "id": 8
+    },
+    {
+      "title": "something",
+      "description": "something very new",
+      "userId": "111707005800329931426",
+      "id": 9
+    },
+    {
+      "title": "lol",
+      "description": "lmao",
+      "userId": "111707005800329931426",
+      "id": 10
     }
   ]
 }

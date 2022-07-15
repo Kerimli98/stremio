@@ -5,7 +5,11 @@ import GoogleOAuth from "./GoogleOAuth";
 const Header = () => {
   return (
     <div className="ui secondary pointing menu">
-      <Link to="/" className="item">
+      <Link
+        to="/"
+        style={{ fontWeight: "bold", fontSize: "20px", letterSpacing: "1px" }}
+        className="item"
+      >
         Streamio
       </Link>
       <div className="right menu">
